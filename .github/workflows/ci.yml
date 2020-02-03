@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -14,19 +13,19 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      
+
       - name: setup node env
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      
+
       - name: build dist
         run: |
-              yarn
-              yarn build
+          yarn
+          yarn build
         env:
           CI: true
-          
+
       - name: Login to dockerhub
         run: echo ${{secrets.DOCKER_PASSWORD}} | docker login -u ${{secrets.DOCKER_USERNAME}} --password-stdin
 
