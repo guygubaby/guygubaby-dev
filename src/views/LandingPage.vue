@@ -43,7 +43,7 @@
 
               <hr>
 
-              <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">23 year old</span> web developer from the <span class="font-bold hover:text-purple-300">China</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
+              <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">24 year old</span> web developer from the <span class="font-bold hover:text-purple-300">China</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
             </div>
           
           </kinesis-element>
