@@ -100,7 +100,7 @@
     <div class="hero-footer bg-purple-700 p-12 text-white">
       <div class="container flex items-center justify-center mx-auto text-center font-bold">
         <span class="rounded-full bg-purple-800 px-4 py-2 shadow-lg m-1">
-          <i class="fas fa-code mr-3"></i>guygubaby Development &copy; 2020
+          <i class="fas fa-code mr-3"></i>guygubaby Development &copy; {{ year }}
         </span>
 
         <a href="mailto:1907004005@qq.com" class="rounded-full bg-purple-800 px-4 py-2 shadow-lg m-1 font-bold">
@@ -113,6 +113,13 @@
 </template>
 
 <script>
+export default {
+  computed:{
+    year(){ 
+      return new Date().getFullYear()
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
