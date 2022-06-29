@@ -7,19 +7,8 @@
         <div class="container text-white text-center">
 
           <div class="text-5xl font-bold">Hi, I'm <span class="hover:text-purple-300">guygubaby</span>.</div>
-          <div class="text-2xl font-normal text-gray-300">I wrote js and python</div>
+          <div class="text-2xl font-normal text-gray-300 mt-4">I wrote TypeScript and Vue</div>
 
-          <!-- <div class="flex-auto items-center justify-between flex-wrap mt-4 pb-12 px-4">
-
-            <a href="https://discord.gg/3eHf5j2" class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full mr-3">
-              <i class="fab fa-discord mr-2"></i>Contact
-            </a>
-
-            <a href="https://top.gg/user/204616460797083648" class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full">
-              <i class="fas fa-meteor mr-2"></i>Bots
-            </a>
-
-          </div> -->
         </div>
 
       </div>
@@ -43,7 +32,7 @@
 
               <hr>
 
-              <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">24 year old</span> web developer from the <span class="font-bold hover:text-purple-300">China</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
+              <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">25 year old</span> web developer from the <span class="font-bold hover:text-purple-300">China</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.typescriptlang.org/">TypeScript</a> &amp;<i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://vuejs.org/">Vue</a>.</div>
             </div>
           
           </kinesis-element>
@@ -61,11 +50,11 @@
 
               <div class="text-xl font-normal mt-2">
                 <ul class="list-disc ml-4">
-                  <li><i class="fas fa-database mr-2"></i>MongoDB, Redis</li>
-                  <li><i class="fab fa-vuejs mr-2"></i>Vue.js</li>
-                  <li><i class="fab fa-python mr-2"></i>Python</li>
-                  <li><i class="fas fa-server mr-2"></i>Nginx</li>
-                  <li><i class="fab fa-github mr-2"></i>Git</li>
+                  <li>Docker</li>
+                  <li>Nginx</li>
+                  <li>TypeScript</li>
+                  <li>Vue.js</li>
+                  <li>Vite</li>
                 </ul>
               </div>
             </div>
@@ -103,8 +92,8 @@
           <i class="fas fa-code mr-3"></i>guygubaby Development &copy; {{ year }}
         </span>
 
-        <a href="mailto:1907004005@qq.com" class="rounded-full bg-purple-800 px-4 py-2 shadow-lg m-1 font-bold">
-          <i class="fas fa-envelope mr-2"></i>1907004005@qq.com
+        <a href="mailto:guygubaby@gmail.com" class="rounded-full bg-purple-800 px-4 py-2 shadow-lg m-1 font-bold">
+          <i class="fas fa-envelope mr-2"></i>guygubaby@gmail.com
         </a>
       </div>
     </div>

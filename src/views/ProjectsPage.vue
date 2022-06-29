@@ -3,7 +3,7 @@
         <div class="hero h-screen bg-purple-700 pt-24 pb-12">
             <div class="container mx-auto p-6">
                 <div class="text-white text-5xl font-bold"><i class="fas fa-leaf mr-3"></i>Projects</div>
-                <div class="text-gray-300 text-2xl font-medium">A collection of active projects.</div>
+                <div class="text-gray-300 text-2xl font-medium mt-2">A collection of active projects.</div>
 
                 <hr class="my-8">
                 
@@ -40,25 +40,53 @@ export default {
             projects: [
                 {
                     id: 1,
-                    name: 'hot-list-server',
-                    description: 'hot list server side wrote in python',
-                    url: 'https://github.com/guygubaby/hot-list',
+                    name: 'frame',
+                    description: 'Animation util for vue based on Motion One',
+                    url: 'https://github.com/guygubaby/frame',
                     icon: 'fas fa-pen-fancy',
                 },
                 {
                     id: 2,
-                    name: 'Blog',
-                    description: 'My skills blog',
-                    url: 'https://github.com/guygubaby/blog',
+                    name: 'mz',
+                    description: 'A zoom image component for vue3 using medium-zoom',
+                    url: 'https://github.com/guygubaby/mz',
                     icon: 'fab fa-discord',
                 },
                 {
                     id: 3,
-                    name: 'dytt-server',
-                    description: 'A spider wrote in golang',
-                    url: 'https://github.com/dytt-bryce/server',
+                    name: 'utils',
+                    description: 'Collection of typescript utils by @guygubaby',
+                    url: 'https://github.com/guygubaby/utils',
                     icon: 'fab fa-discord',
-                }
+                },
+                {
+                    id: 4,
+                    name: 'at',
+                    description: 'animate.css powered vue transition component',
+                    url: 'https://github.com/guygubaby/at',
+                    icon: 'fab fa-discord',
+                },
+                {
+                    id: 5,
+                    name: 'at',
+                    description: 'animate.css powered vue transition component',
+                    url: 'https://github.com/guygubaby/at',
+                    icon: 'fab fa-discord',
+                },
+                {
+                    id: 6,
+                    name: 'vueup',
+                    description: 'Vueup makes it easy to build ts vue component lib',
+                    url: 'https://github.com/guygubaby/vueup',
+                    icon: 'fab fa-discord',
+                },
+                {
+                    id: 7,
+                    name: 'scrollbar',
+                    description: 'Scrollbar style util for the web',
+                    url: 'https://github.com/guygubaby/scrollbar',
+                    icon: 'fab fa-discord',
+                },
             ]
         }
     }
